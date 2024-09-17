@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="Myportfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+
+</head>
+<body>
+    <!-- Scroll Up Button -->
+<div class="scroll-up-btn">
+    <i class="fas fa-angle-up"></i>
+</div>
+
+<!-- Logo/Icon Section -->
+<div class="icon">
+    <h2 class="logo"></h2>
+</div>
+
+<!-- Navigation Bar -->
+<nav class="navbar">
+    <div class="max-width">
+        <!-- Logo (if needed) -->
+        <!-- <div class="logo"><a href="#"><span>Sai</span></a></div> -->
+        
+        <!-- Navigation Menu -->
+        <ul class="menu">
+            <li><a href="#home" class="menu-btn">Home</a></li>
+            <li><a href="#about" class="menu-btn">About</a></li>
+            <li><a href="#education" class="menu-btn">Education</a></li>
+            <li><a href="#skills" class="menu-btn">Skills</a></li>
+            <li><a href="#certifications" class="menu-btn">Certifications</a></li>
+            <li><a href="#contact" class="menu-btn">Contact</a></li>
+        </ul>
+        <!-- Mobile Menu Button -->
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </div>
+</nav>
+
+<!-- Home Section -->
+<section class="home" id="home">
+    <div class="max-width">
+        <div class="home-content">
+            <div class="text-1">Hello, I am</div>
+            <div class="text-2">VEERA VENKATA SIVA HARSHA SANAPATHI</div>
+            <div class="text-3">And I'm a <span class="typing"></span></div>
+            <!-- Removed commented-out link for cleaner code -->
+        </div>
+    </div>
+</section>
+
+<!-- About Me Section -->
+<section class="about" id="about">
+    <div class="max-width">
+        <h2 class="title">About Me</h2>
+        <div class="about-content">
+            <div class="column left">
+                <!-- Content for left column (if needed) -->
+            </div>
+            <div class="column right">
+                <div class="text">S.V.V.S.Harsha</div>
+                <p>Aspiring Pega Certified System Architect seeking to leverage expertise in developing and implementing robust business solutions to drive operational efficiency and enhance customer experience within a dynamic organization.</p>
+                <a href="https://drive.google.com/file/d/16qAmdO0RFaDU602Mdh-0puxUOCy4GFM8/view?usp=sharing" target="_blank" rel="noopener noreferrer">My Resume</a>
+                <a href="https://drive.google.com/file/d/1eVTNXYan2cfVg4HzV-na6rnEk_AfvrwK/view?usp=sharing" target="_blank" rel="noopener noreferrer">My Photo</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- education -->
+<section class="education" id="education">
+    <div class="max-width">
+        <h2 class="title">Education</h2>
+        <div class="timeline">
+
+<!-- B.Tech -->
+<div class="timeline-item">
+    <div class="timeline-icon">
+        <i class="fas fa-university"></i>
+    </div>
+    <div class="timeline-content">
+        <h3 class="timeline-title">B.Tech</h3>
+        <p>Electrical and Electronics Engineering (EEE)</p>
+        <p class="timeline-institution">College: Lakireddy Balireddy College of Engineering , Mylavaram</p>
+        <span class="timeline-year">Passing Year: 2021-2025</span>
+        <p class="timeline-cgpa">CGPA: 8.43</p>
+        <div class="project-details">
+            
+            <a class="toggle-details" onclick="toggleDetails(this)">View More</a>
+            <div class="details" style="display: none;">
+                <div class="cert-card">
+                <p>This is my marks list.</p>
+                <p><a href="https://drive.google.com/file/d/16gzOoNeCR0F5eeaj4YDSSsQapXjmPOgd/view?usp=sharing" target="_blank">View Certificate</a></p></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+            <!-- Intermediate -->
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <i class="fas fa-user-graduate"></i>
+                </div>
+                <div class="timeline-content">
+                    <h3 class="timeline-title">Intermediate</h3>
+                    <p>Course: MPC</p>
+                    <p class="timeline-institution">College: Sri Chaitanya Junior College , VUYYURU</p>
+                    <span class="timeline-year">Passing Year: 2019-2021</span>
+                    <p class="timeline-cgpa">PERCENTAGE: 93.9</p>
+                    <div class="project-details">
+            
+                        <a class="toggle-details" onclick="toggleDetails(this)">View More</a>
+                        <div class="details" style="display: none;">
+                            <div class="cert-card">
+                            <p>This is my marks list.</p>
+                            <p><a href="https://drive.google.com/file/d/16EpY3KMCNqdVT450XkV_BfwzyX4u7S-p/view?usp=sharing" target="_blank">View Certificate</a></p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- SSC -->
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="timeline-content">
+                    <h3 class="timeline-title">SSC</h3>
+                    <p class="timeline-institution">School: Sri Chaitanya High School ,VUYYURUU</p>
+                    <span class="timeline-year">Passing Year: 2018-2019</span>
+                    <p class="timeline-cgpa">CGPA: 9.7</p>
+                    <div class="project-details">
+            
+                        <a class="toggle-details" onclick="toggleDetails(this)">View More</a>
+                        <div class="details" style="display: none;">
+                            <div class="cert-card">
+                            <p>This is my marks list.</p>
+                            <p><a href="https://drive.google.com/file/d/16Dc6sGfdDlLop3-Y-kHIrsW4VVcFKXv6/view?usp=sharing" target="_blank">View Certificate</a></p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+
+<section class="skills" id="skills">
+    <div class="max-width">
+        <h2 class="title">Technical Skills</h2>
+        <div class="skills-container">
+            <!-- Programming Languages -->
+            <div class="category">
+                <h3>Programming Languages</h3>
+                <ul>
+                    <li>C</li>
+                    <li>OOP's in Java</li>
+                    <li>Basics of Python</li>
+                </ul>
+            </div>
+            <!-- software -->
+            <div class="category">
+                <h3>Software</h3>
+                <ul>
+                   <li>MATLAB</li>
+                   <li>8086 MASM</li>
+                </ul>
+            </div>
+            <!-- Web Technologies -->
+            <div class="category">
+                <h3>Web Development</h3>
+                <ul>
+                    <li>Basics of HTML</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+     <!-- soft skills -->
+
+     <section class="soft-skills" id="soft-skills">
+        <div class="max-width">
+            <h2 class="title">Soft Skills</h2>
+            <div class="skills-container">
+                <!-- Communication Skills -->
+                <div class="category">
+                    <h3>Communication Skills</h3>
+                    <ul>
+                        <li>Communication</li>
+                        <li>Team Work</li>
+                    </ul>
+                </div>
+                <!-- Management Skills -->
+                <div class="category">
+                    <h3>Management Skills</h3>
+                    <ul>
+                        <li>Time Management</li>
+                        <li>Multi Tasking</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- certifications -->
+    <section class="certifications" id="certifications">
+        <div class="max-width">
+            <h2 class="title">Certifications</h2>
+            <div class="cert-content">
+                <!-- pega -->
+                <div class="cert-card" onclick="toggleCertDetails('cert2')">
+                    <div class="cert-box">
+                        <div class="cert-text">PEGA</div>
+                    </div>
+                    <div id="cert2" class="cert-details">
+                        <div class="cert-card">
+                            <p>Pega System Architect '23</p>
+                            <a href="https://drive.google.com/file/d/1yLEdVcfWhRwiA0QL0mz68EQ03Wyloe8e/view?usp=sharing" target="_blank">View Certificate</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- NPTEL Section -->
+                <div class="cert-card" onclick="toggleCertDetails('cert1')">
+                    <div class="cert-box">
+                        <div class="cert-text">NPTEL</div>
+                    </div>
+                    <div id="cert1" class="cert-details">
+                        <div class="cert-card">
+                            <p>Joy of Computing Python </p>
+                            <a href="https://drive.google.com/file/d/1ha4zOSTj1T6qXfJVvHJAHyS5ECzW1fOH/view?usp=sharing" target="_blank">View Certificate</a>
+                        </div>
+                    </div>
+                </div>                       
+                <!-- Geekster -->
+                <div class="cert-card" onclick="toggleCertDetails('cert3')">
+                    <div class="cert-box">
+                        <div class="cert-text">GEEKSTER</div>
+                    </div>
+                    <div id="cert3" class="cert-details">
+                        <div class="cert-card">
+                            <p>Python</p>
+                            <a href="https://drive.google.com/file/d/1dEOs4dsx34T0gFsPeWaiIYnTtDibsgMc/view?usp=sharing" target="_blank">View Certificate</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- workshop -->
+                <div class="cert-card" onclick="toggleCertDetails('cert4')">
+                    <div class="cert-box">
+                        <div class="cert-text">WORKSHOP</div>
+                    </div>
+                    <div id="cert4" class="cert-details">
+                        <div class="cert-card">
+                            <p>Tessolve Workshop on Embedded IoT and Industrial Automation</p>
+                            <a href="https://drive.google.com/file/d/1e95QufApqsGfCDJr7-liZMdFjlEhgr8b/view?usp=sharing" target="_blank">View Certificate</a>
+                        </div>
+                    </div>
+                </div>                
+                <!-- internship -->
+                <div class="cert-card" onclick="toggleCertDetails('cert5')">
+                    <div class="cert-box">
+                        <div class="cert-text">VIRTUAL INTERNSHIP</div>
+                    </div>
+                    <div id="cert5" class="cert-details">
+                        <div class="cert-card">
+                            <p>Virtual Internship on Solar PV Plant Design</p>
+                            <a href="https://drive.google.com/file/d/1pVcRFouFe8Kyv8VuQ1DP3930PM-z3RSu/view?usp=sharing" target="_blank">View Certificate</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section start -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact me</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <p>To get in touch with me: </p>
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                                <div class="head">Name</div>
+                                <div class="sub-title">S.V.V.S.Harsha</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info">
+                                <div class="head">Address</div>
+                                <div class="sub-title">
+                                    <p>Kanumuru, Andhra Pradesh, India.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">
+                                    <a href="mailto:sivaharshasanapathi@gmail.com">sivaharshasanapathi@gmail.com</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-phone"></i>
+                            <div class="info">
+                                <div class="head">Phone</div>
+                                <div class="sub-title">9505976282</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+
+    <!-- footer section start -->
+    <footer>
+        <p><b>S.V.V.S.Harsha</b></p>
+        <div class="social">
+            
+            <a href="https://www.linkedin.com/in/harshasanapathi" target="_blank">
+                <i class="fa fa-linkedin-square">&emsp;</i>
+            </a>
+            <a href="https://github.com/Harsha-Pega" target="_blank">
+                <i class="fa fa-github"></i>
+            </a>
+
+        </div>
+    </footer>
+
+
+    <script src="Myportfolio.js"></script>
+</body>
+</html>
